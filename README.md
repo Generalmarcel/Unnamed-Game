@@ -6,8 +6,17 @@ Planned release in 8 weeks, created on May 22nd 2019, need a name, suggestions v
 - 3D warfare
 
 ### Content
-#### Release
-1. Ships
-2. Tanks
-3. Aircraft
-4. Infantry(planned)
+- Release
+    * Ships
+    * Tanks
+    * Aircraft
+
+- Beta
+    * Ships
+    * Tanks
+    * Aircraft
+    * Infantry _(testing)_
+
+### Idea
+The _game_ is structured like a 3d rpg, but contains more than just a regular one. The added content is a ***[TechTree](https://github.com/MikuAdmin/Unnamed-Game/README.MD#tree)***, you also
+play as a _humanoid projection[&lsqb;read more...&rsqb;](https://github.com/MikuAdmin/Unnamed-Game/README.MD#humanoid)_
