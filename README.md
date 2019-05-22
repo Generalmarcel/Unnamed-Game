@@ -56,4 +56,4 @@ class CHARACTER_NAME: public Character {
 ### Tech Tree
 
 ## Testing Rewards
-Everyone who wants to join beta testing, should sign up. Testing will be rewarded with an _[ingame character](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#humanoid-depictions)_, a special tag and some hidden features for certain things. The [special tag](https://github.com/AdminMiku/Unnamed-Game/blob/master/README.MD#tags) is also considered as an option, which I'll be discussing with my helpers. You'll be notified if you choose to join.
+Everyone who wants to join beta testing, should sign up. Testing will be rewarded with an _[ingame character](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#humanoid-depictions)_, a special tag and some hidden features for certain things. The [special tag](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#tags) is also considered as an option, which I'll be discussing with my helpers. You'll be notified if you choose to join.
