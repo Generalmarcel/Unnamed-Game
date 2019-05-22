@@ -53,7 +53,7 @@ using namespace character;
 class CHARACTER_NAME {
    public:
    CHARACTER_NAME();
-   Character c;
+   character::Character c;
 };
 
 CHARACTER_NAME::CHARACTER_NAME() {
@@ -61,6 +61,7 @@ CHARACTER_NAME::CHARACTER_NAME() {
 };
 ```
 ### Tech Tree
+_Let's just say it's in development_
 
 ## Testing Rewards
 Everyone who wants to join beta testing, should sign up. Testing will be rewarded with an _[ingame character](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#humanoid-depictions)_, a special tag and some hidden features for certain things. The [special tag](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#tags) is also considered as an option, which I'll be discussing with my helpers. You'll be notified if you choose to join.
