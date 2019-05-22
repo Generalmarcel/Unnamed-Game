@@ -37,7 +37,7 @@ The following tags can and will be useable throughout the game _(from lowest to 
 - Admiral - Receive when you have collected all ships/tanks/planes of an entire nation.
 - Collector - Reward for collecting every single character.
 - ***Competitor*** - Claimed after getting _100%_ on the game.
-- &beta;&epsilon;&tau;&alpha;-Player - Reward for participating in the &beta;-Program _(in discussion)_.
+- ***&beta;&epsilon;&tau;&alpha;-Player*** - Reward for participating in the &beta;-Program _(in discussion)_.
 
 ### Humanoid Depictions
 As said it will also be featuring _3D Depictions_ of Ships, Tanks and Planes. **Depictions only used for map**, for a nicer and cleaner 
@@ -50,8 +50,14 @@ Each character is an individual _C++_ file, example **[Seinaruhi](https://github
 
 using namespace character;
 
-class CHARACTER_NAME: public Character {
-   //define here
+class CHARACTER_NAME {
+   public:
+   CHARACTER_NAME();
+   Character c;
+};
+
+CHARACTER_NAME::CHARACTER_NAME() {
+   this->c = new character::Character(ID, VEHICLE_NAME, CHARACTER_NAME);
 };
 ```
 ### Tech Tree
