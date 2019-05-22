@@ -7,7 +7,7 @@ is written _C++_ and this means *3D-Rendering*.
 The idea came from _Wargaming(**World Of Warships**)_, but this does not mean it'll not only contain around 60 ships.
 
 ### Testing
-The main reason this is public on [github](https://github.com/), is for testing purposes[&lsqb;more&rsqb;](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#testing+rewards).
+The main reason this is public on [github](https://github.com/), is for testing purposes[&lsqb;more&rsqb;](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#testing-rewards).
 
 ### Content
 - Release
@@ -26,3 +26,7 @@ The _game_ is structured like a 3d rpg, but contains more than just a regular on
 play as a _[humanoid depictions](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#humanoid)_
 
 ### Testing Rewards
+
+<h3 id="humanoid">Humanoid Depictions</h3>
+
+<h3 id="tree">Tech Tree</h3>
