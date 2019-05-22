@@ -22,11 +22,27 @@ The main reason this is public on [github](https://github.com/), is for testing 
     * Infantry _(testing)_
 
 ### Idea
-The _game_ is structured like a 3d rpg, but contains more than just a regular one. The added content is a ***[TechTree](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#tree)***, you also
-play as a _[humanoid depictions](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#humanoid)_
+The _game_ is structured like a 3d rpg, but contains more than just a regular one. The added content is a ***[TechTree](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#tech-tree)***, you also
+play as a _[humanoid depictions](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#humanoid-depictions)_
 
-### Testing Rewards
+### Tags
+The following tags can and will be useable throughout the game _(from lowest to highest)_:
+- Solider - Awarded when joining.
+- Gunner - Awarded after finishing 20 Missions without a miss.
+- Driver - Received after driving a distance of 500mi.
+- 1<sup>st</sup> Officer - Awarded after killing 50 enemies.
+- Lieutenant - For eliminating 125 enemies.
+- Commander - Reward for successfully terminating an event boss.
+- Captain - After collecting an entire set of vehicle types.
+- Admiral - Receive when you have collected all ships/tanks/planes of an entire nation.
+- Collector - Reward for collecting every single character.
+- &beta;&epsilon;&tau;&alpha;-Player - Reward for participating in the &beta;-Program _(in discussion)_.
 
-<h3 id="humanoid">Humanoid Depictions</h3>
+### Humanoid Depictions
+As said it will also be featuring _3D Depictions_ of Ships, Tanks and Planes. **Depictions only used for map**, for a nicer and cleaner 
+look, especially in the case of playing a ship. Theese Characters ***aren't lacking*** the features of the respecive vehicle, which translates to showing *equipment and possibly even their weapons*.
 
-<h3 id="tree">Tech Tree</h3>
+### Tech Tree
+
+## Testing Rewards
+Everyone who wants to join beta testing, should sign up. Testing will be rewarded with an _[ingame character](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#humanoid-depictions)_, a special tag and some hidden features for certain things. A beta tester tag is also considered as an option, which I'll be discussing with my helpers. You'll be notified if you choose to join.
