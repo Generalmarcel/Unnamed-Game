@@ -36,6 +36,7 @@ The following tags can and will be useable throughout the game _(from lowest to 
 - Captain - After collecting an entire set of vehicle types.
 - Admiral - Receive when you have collected all ships/tanks/planes of an entire nation.
 - Collector - Reward for collecting every single character.
+- ***Competitor*** - Claimed after getting _100%_ on the game.
 - &beta;&epsilon;&tau;&alpha;-Player - Reward for participating in the &beta;-Program _(in discussion)_.
 
 ### Humanoid Depictions
