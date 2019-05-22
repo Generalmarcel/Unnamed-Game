@@ -6,9 +6,9 @@ using namespace std;
 class Seinaruhi {
   public:
   Seinaruhi();
-  Character c;
+  character::Character c;
 };
 
 Seinaruhi::Seinaruhi() {
-  this->c=new character::Character(ID, "Seinaruhi", "Miku Haruku");
+  this->c = new character::Character(ID, "Seinaruhi", "Miku Haruku");
 };
