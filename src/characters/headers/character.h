@@ -63,14 +63,65 @@ namespace humanoid {
 	namespace tank {
 		class Tank {
 		public:
-			Tank(int id, Character *character, std::string vehicle_name);
-		private:
+			Tank(int id, Character *character, std::string vehicle_name, types::tank tank);
 
+			//convert to std::string
+			std::string str();
+		private:
+			Character *character;
+			std::string vehicle_name;
+			types::tank tank;
+			int id;
 		};
+
+		Tank::Tank(int id, Character *character, std::string vehicle_name, types::tank tank) {
+			this->id = id;
+			this->character = character;
+			this->vehicle_name = vehicle_name;
+			this->tank = tank;
+		}
+
+		std::string Tank::str() {
+			std::stringstream ss;
+			ss << id;
+
+			std::string type = to::asTank(this->tank);
+
+			//return
+			return character->str() + ", a " + type + " with the name " + vehicle_name + " has an id of: " + ss.str();
+		}
 	}
 	
 	namespace plane {
+		class Plane {
+		public:
+			Plane(int id, Character *character, std::string vehicle_name, types::plane plane);
 
+			//convert to std::string
+			std::string str();
+		private:
+			Character *character;
+			std::string vehicle_name;
+			types::plane plane;
+			int id;
+		};
+
+		Plane::Plane(int id, Character *character, std::string vehicle_name, types::plane plane) {
+			this->id = id;
+			this->character = character;
+			this->vehicle_name = vehicle_name;
+			this->plane = plane;
+		}
+
+		std::string Plane::str() {
+			std::stringstream ss;
+			ss << id;
+
+			std::string type = to::asPlane(this->plane);
+
+			//return
+			return character->str() + ", a " + type + " , aka " + vehicle_name + " has received the id: " + ss.str();
+		}
 	}
 } 
 
