@@ -1,14 +1,19 @@
 #include "character.h"
-#include <iostream>
+#include "type.h"
 
-using namespace std;
+character::Character *create() {
+  character::Character *seinaruhi = new character::Character(0xFF, "Seinaruhi", "Miku Haruku", type::bb);
+  return seinaruhi;
+}
 
-class Seinaruhi {
-  public:
-  Seinaruhi();
-  character::Character c;
-};
+bool build() {
+  //building function
+}
 
-Seinaruhi::Seinaruhi() {
-  this->c = new character::Character(ID, "Seinaruhi", "Miku Haruku");
-};
+bool receive() {
+  //received after fighting
+}
+
+bool bought() {
+  //bought in shop
+}
