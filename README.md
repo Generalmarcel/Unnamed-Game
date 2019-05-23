@@ -68,7 +68,7 @@ private:
 };
 
 <YOUR_NAME>::<YOUR_NAME>() {
-	this->seinaruhi = new humanoid::ship::<YOUR_VEHICLE_TYPE>(<YOUR_ID>, new humanoid::Character(<YOUR_CHARACTERS_FIRST_NAME>, <YOUR_CHARACTERS_LAST_NAME>), <YOUR_NAME>, <YOUR_TYPE>);
+	this-><YOUR_NAME> = new humanoid::ship::<YOUR_VEHICLE_TYPE>(<YOUR_ID>, new humanoid::Character(<YOUR_CHARACTERS_FIRST_NAME>, <YOUR_CHARACTERS_LAST_NAME>), <YOUR_NAME>, <YOUR_TYPE>);
 }
 
 std::string <YOUR_NAME>::str() {
