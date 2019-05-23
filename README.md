@@ -47,21 +47,31 @@ look, especially in the case of playing a ship. Theese Characters ***aren't lack
 Each character is an individual _C++_ file, example **[Seinaruhi](https://github.com/MikuAdmin/Unnamed-Game/blob/master/src/characters/seinaruhi.cpp)**, she actually is a depiction of myself as a _japanese_ **battleship**. This means you can code one yourself:
 ```c++
 #include "character.h"
+#include "types.h"
 
-using namespace character;
+character::Character *create() {
+   return new character::Character(ID, NAME, CHARACTER_NAME, TYPE);
+}
 
-class CHARACTER_NAME {
-   public:
-   CHARACTER_NAME();
-   character::Character c;
-};
+bool build() {
+   //the build function
+}
 
-CHARACTER_NAME::CHARACTER_NAME() {
-   this->c = new character::Character(ID, VEHICLE_NAME, CHARACTER_NAME);
-};
+bool receive() {
+   //the receive after building function
+   //should be called after building or fighting
+}
+
+bool bought() {
+   //buying in the shop
+}
+
+bool earned() {
+   //get for fighting
+}
 ```
 ### Tech Tree
-_Let's just say it's in development_
+_Let's just say it's in development_.
 
 ## Testing Rewards
 Everyone who wants to join beta testing, should sign up. Testing will be rewarded with an _[ingame character](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#humanoid-depictions)_, a special tag and some hidden features for certain things. The [special tag](https://github.com/MikuAdmin/Unnamed-Game/blob/master/README.md#tags) is also considered as an option, which I'll be discussing with my helpers. You'll be notified if you choose to join.
