@@ -46,29 +46,37 @@ look, especially in the case of playing a ship. Theese Characters ***aren't lack
 ### Custom Character Creation
 Each character is an individual _C++_ file, example **[Seinaruhi](https://github.com/MikuAdmin/Unnamed-Game/blob/master/src/characters/characters/seinaruhi.h)**, she actually is a depiction of myself as a _japanese_ **battleship**. This means you can code one yourself:
 ```c++
+//a header file
+//<your_character_name>.h
+#pragma once
+
 #include "character.h"
 #include "types.h"
 
-character::Character *create() {
-   return new character::Character(ID, NAME, CHARACTER_NAME, TYPE);
+#include <iostream>
+
+#ifndef <YOUR_NATION>_<YOUR_TYPE>_<YOUR_NAME>
+#define <YOUR_NATION>_<YOUR_TYPE>_<YOUR_NAME>
+
+class <YOUR_NAME> {
+public:
+	<YOUR_NAME>();
+	std::string str();
+
+private:
+	humanoid::ship::Ship *<YOUR_NAME>;
+};
+
+<YOUR_NAME>::<YOUR_NAME>() {
+	this->seinaruhi = new humanoid::ship::Ship(<YOUR_ID>, new humanoid::Character(<YOUR_CHARACTERS_FIRST_NAME>, <YOUR_CHARACTERS_LAST_NAME>), <YOUR_NAME>, <YOUR_TYPE>);
 }
 
-bool build() {
-   //the build function
+std::string <YOUR_NAME>::str() {
+	return this-><YOUR_NAME>->str();
 }
 
-bool receive() {
-   //the receive after building function
-   //should be called after building or fighting
-}
+#endif // !<YOUR_NATION>_<YOUR_TYPE>_<YOUR_NAME>
 
-bool bought() {
-   //buying in the shop
-}
-
-bool earned() {
-   //get for fighting
-}
 ```
 ### Tech Tree
 _Let's just say it's in development_.
