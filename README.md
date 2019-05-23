@@ -44,7 +44,7 @@ As said it will also be featuring _3D Depictions_ of Ships, Tanks and Planes. **
 look, especially in the case of playing a ship. Theese Characters ***aren't lacking*** the features of the respecive vehicle, which translates to showing *equipment and possibly even their weapons*.
 
 ### Custom Character Creation
-Each character is an individual _C++_ file, example **[Seinaruhi](https://github.com/MikuAdmin/Unnamed-Game/blob/master/src/characters/seinaruhi.cpp)**, she actually is a depiction of myself as a _japanese_ **battleship**. This means you can code one yourself:
+Each character is an individual _C++_ file, example **[Seinaruhi](https://github.com/MikuAdmin/Unnamed-Game/tree/master/src/characters/characters/Seinaruhi.h)**, she actually is a depiction of myself as a _japanese_ **battleship**. This means you can code one yourself:
 ```c++
 #include "character.h"
 #include "types.h"
